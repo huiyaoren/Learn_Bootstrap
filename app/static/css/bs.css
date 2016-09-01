@@ -1,0 +1,151 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft Yahei', sans-serif;
+}
+
+._box {
+    max-width: 1000px;
+    height: 100%;
+
+    margin: 0 auto;
+
+    text-align: center;
+    position: relative;
+}
+
+
+._course div {
+    width: 140px;
+    height: 81px;
+
+    margin: 10px auto 0;
+
+    overflow: hidden;
+    background: url(../images/course_01.jpg);
+    background-position: center center;
+    text-align: center;
+}
+
+._course p {
+    width: 100%;
+    height: 81px;
+    line-height: 21px;
+
+    color: white;
+    background: rgba(0, 0, 0, .7);
+
+    position: relative;
+    bottom: -60px;
+}
+
+._course p:hover,
+._course div:hover > p {
+    bottom: 0;
+}
+
+._course img {
+    width: 140px;
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+._course span {
+    display: inline-block;
+
+    font-size: .12rem;
+    line-height: .12rem;
+
+    margin: 12px 10px 0;
+}
+
+/* header
+-------------------------------------------------------------------------------*/
+.header {
+    width: 100%;
+    /*height: 70px;*/
+    border-bottom: solid 1px #135888;
+    background: #14598c;
+}
+.header_box {
+    max-width: 1000px;
+    /*height: 70px;*/
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+.header_box a{
+    color: white;
+}
+
+/* banner
+-------------------------------------------------------------------------------*/
+.banner{
+    width: 100%;
+    background-image: url("../images/banner_back.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.banner_box{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* banner
+-------------------------------------------------------------------------------*/
+.what {
+    width: 100%;
+    background: #f2f2f2;
+}
+.what_box_tech > div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.what_box h1 {
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.what_box h2 {
+    margin-bottom: 10px;
+}
+
+.what_box h2:last-child {
+    text-decoration: underline;
+}
+
+.what_box_tech {
+    margin-bottom: 20px;
+}
+
+.what_box_tech > div {
+    display: inline-block;
+}
+
+.what_box_tech img {
+    margin: 4px;
+    cursor: pointer;
+}
+
+.what_box_course {
+    /*height: 135px;*/
+
+
+    text-align: center;
+}
+/* how
+-------------------------------------------------------------------------------*/
+.how {
+    width: 100%;
+    /*height: 560px;*/
+
+    background: #bdc1c4;
+}
